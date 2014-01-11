@@ -3,11 +3,27 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/LoremPixel/badge.png)](http://cocoadocs.org/docsets/LoremPixel)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/LoremPixel/badge.png)](http://cocoadocs.org/docsets/LoremPixel)
 
+LoremPixel is a simple library that fills UIImageView with image from [www.lorempixel.com](www.lorempixel.com)
+
 ## Usage
 
 To run the example project; clone the repo, and run `pod install` from the Project directory first.
 
+Create a UIImageView
+
+	UIImageView *imageView = [[UIImageView alloc] init];
+
+Assign its frame
+
+	imageView.frame = some frame
+
+Load dummy image
+
+	[imageView getDummyImage];
+
 ## Requirements
+
+LoremPixel requires [AFNetworking](https://github.com/AFNetworking/AFNetworking) version 1.3.3 or greater
 
 ## Installation
 
