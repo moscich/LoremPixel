@@ -3,7 +3,9 @@
 [![Version](http://cocoapod-badges.herokuapp.com/v/LoremPixel/badge.png)](http://cocoadocs.org/docsets/LoremPixel)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/LoremPixel/badge.png)](http://cocoadocs.org/docsets/LoremPixel)
 
-LoremPixel is a simple library that fills UIImageView with image from [www.lorempixel.com](www.lorempixel.com)
+[![Build Status](https://travis-ci.org/moscich/LoremPixel.png)](https://travis-ci.org/moscich/LoremPixel)
+
+LoremPixel is a simple library that fills UIImageView with image from [http://www.lorempixel.com](www.lorempixel.com)
 
 ## Usage
 
