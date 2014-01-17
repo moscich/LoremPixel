@@ -32,7 +32,7 @@ static int MAXIMUM_IMAGE_SIZE = 1920;
         urlString = [self addDummyTextPathComponent:dummyText toString:urlString];
 
     NSURL *url = [NSURL URLWithString:urlString];
-    NSLog(@"urlString = %@", urlString);
+
     [self setImageWithURL:url];
 }
 

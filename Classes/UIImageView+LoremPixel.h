@@ -6,7 +6,9 @@
 
 #import <Foundation/Foundation.h>
 
-// categories available in Lorem Pixel
+/** 
+ categories available in Lorem Pixel
+ */
 typedef enum
 {
     LoremPixelCategoryAbstract,
@@ -27,9 +29,16 @@ typedef enum
 
 @interface UIImageView (LoremPixel)
 
-// fills UIImageView with image of its size
+/** 
+fills UIImageView with image of its size
+*/
 - (void)getDummyImage;
-// fills UIImageView with image of its size in given category, color or b&w, with dummyText
+/** 
+fills UIImageView with image of its size in given category, color or b&w, with dummyText
+ @param category image category
+ @param gray should image be b&w
+ @param dummyText text displayed on image
+*/
 - (void)getDummyImageForCategory:(LoremPixelCategory)category inGray:(BOOL)gray withDummyText:(NSString *)dummyText;
 
 @end
