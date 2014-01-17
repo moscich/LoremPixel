@@ -6,9 +6,11 @@
 
 #import <Foundation/Foundation.h>
 
-/** 
- categories available in Lorem Pixel
+/**
+ UIImageView category that simply enables to load dummy image from www.lorempixel.com 
  */
+
+// categories available in Lorem Pixel
 typedef enum
 {
     LoremPixelCategoryAbstract,
