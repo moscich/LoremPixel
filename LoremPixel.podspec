@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "LoremPixel"
-  s.version      = "0.0.1"
-  s.summary      = "Simple library that fills imageViews with images from www.loremipsum.com"
+  s.version      = "0.0.2"
+  s.summary      = "Simple library that fills imageViews with images from www.lorempixel.com"
   s.homepage     = "https://github.com/moscich"
   s.screenshots  = "http://i.imgur.com/R0SBqo1.png"
   s.license      = 'MIT'
